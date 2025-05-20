@@ -1,46 +1,45 @@
-# NVX AI-Based Photoshop
+# nvx-ai-based-photoshop
 
-**NVX AI-Based Photoshop** is a modern, web-based image editing application that harnesses advanced AI technologies for seamless and intuitive photo manipulation. Built with Flask, Mask R-CNN, OpenCV, and TensorFlow, this project provides powerful features such as automatic background removal, image smoothing, and filtering—all accessible through a user-friendly browser interface.
+AI-Based-Photoshop Simple is a web-based image editing application that leverages advanced AI techniques for seamless photo manipulation. Built with Flask, Mask R-CNN, OpenCV, and TensorFlow, it offers features such as image smoothing, filtering, and automatic background removal.
 
 ## Features
 
-- **Automatic Background Removal**  
-    Instantly remove image backgrounds using state-of-the-art Mask R-CNN models.
-- **Image Smoothing & Filtering**  
-    Enhance your photos with a variety of AI-powered smoothing and filtering effects.
-- **Web-Based Interface**  
-    Edit images directly in your browser—no installation required beyond the server.
+- **Automatic Background Removal**: Effortlessly remove backgrounds from images using Mask R-CNN.
+- **Image Smoothing & Filtering**: Apply various smoothing and filtering effects to enhance your photos.
+- **Web-Based Interface**: Edit images directly from your browser.
 
 ## Installation
 
 1. **Clone the Repository**
-     ```bash
-     git clone https://github.com/yourusername/nvx-ai-based-photoshop.git
-     cd nvx-ai-based-photoshop
-     ```
+
+   ```bash
+   git clone https://github.com/yourusername/nvx-ai-based-photoshop.git
+   cd nvx-ai-based-photoshop
+   ```
 
 2. **Install Dependencies**
-     - Ensure Python 3.x is installed.
-     - Install required packages:
-         ```bash
-         pip install -r requirements.txt
-         ```
-     - Confirm TensorFlow 1.x and Keras > 2.0.6 are installed.
 
-3. **Download Pretrained Weights**
-     - Obtain `mask_rcnn_coco.h5` from the [Mask R-CNN releases page](https://github.com/matterport/Mask_RCNN/releases).
-     - Place the file in the directory specified in the project code.
+   - Ensure you have Python 3.x installed.
+   - Install required libraries:
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - Make sure you have TensorFlow 1.x and Keras > 2.0.6 installed.
+
+3. **Download Mask R-CNN Weights**
+   - Download the `mask_rcnn_coco.h5` file from the [Mask R-CNN GitHub repository](https://github.com/matterport/Mask_RCNN/releases).
+   - Place the file in the appropriate directory as specified in the code.
 
 ## Usage
 
-1. Launch the Flask server:
-     ```bash
-     python app.py
-     ```
-2. Open your browser and navigate to [http://localhost:5000](http://localhost:5000).
-3. Upload an image and select your desired operation (background removal, smoothing, or filtering).
+1. Start the Flask server:
+   ```bash
+   python app.py
+   ```
+2. Open your browser and navigate to `http://localhost:5000`.
+3. Upload an image and select the desired operation (background removal, smoothing, filtering).
 
-## Documentation & References
+## References
 
 - [Flask Documentation](https://flask.palletsprojects.com/)
 - [Mask R-CNN by Matterport](https://github.com/matterport/Mask_RCNN)
@@ -49,30 +48,20 @@
 
 ## Contributing
 
-We welcome contributions from the community! To contribute:
+Contributions are welcome! To contribute:
 
 1. Fork the repository.
-2. Create a feature branch:
-     ```bash
-     git checkout -b feature/your-feature
-     ```
-3. Commit your changes:
-     ```bash
-     git commit -m "Describe your feature"
-     ```
-4. Push your branch:
-     ```bash
-     git push origin feature/your-feature
-     ```
-5. Open a pull request for review.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -m "Add your feature"`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Open a pull request.
 
 ## License
 
-This project is licensed under the [MIT License](https://opensource.org/license/mit). See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/license/mit) file for details.
 
 ## Contact
 
-For questions, suggestions, or feedback, please contact:
+For inquiries or feedback, please contact:
 
-- Satria Nur Saputro  
-    [satrianursaputro06@gmail.com](mailto:satrianursaputro06@gmail.com)
+- Satria Nur Saputro: [satrianursaputro06@gmail.com](mailto:satrianursaputro06@gmail.com)
