@@ -48,20 +48,30 @@ AI-Based-Photoshop Simple is a web-based image editing application that leverage
 
 ## Contributing
 
-Contributions are welcome! To contribute:
+We welcome contributions! To contribute:
 
 1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -m "Add your feature"`).
-4. Push to the branch (`git push origin feature/your-feature`).
+2. Create a feature branch:
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Describe your feature"
+   ```
+4. Push your branch:
+   ```bash
+   git push origin feature/your-feature
+   ```
 5. Open a pull request.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/license/mit) file for details.
+This project is licensed under the [MIT License](https://opensource.org/license/mit). See the LICENSE file for details.
 
 ## Contact
 
-For inquiries or feedback, please contact:
+For questions, suggestions, or feedback, please contact:
 
-- Satria Nur Saputro: [satrianursaputro06@gmail.com](mailto:satrianursaputro06@gmail.com)
+- Satria Nur Saputro  
+  [satrianursaputro06@gmail.com](mailto:satrianursaputro06@gmail.com)
