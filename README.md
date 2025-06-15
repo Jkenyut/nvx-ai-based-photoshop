@@ -1,77 +1,113 @@
-# nvx-ai-based-photoshop
+# NVX AI-Based Photoshop
 
-AI-Based-Photoshop Simple is a web-based image editing application that leverages advanced AI techniques for seamless photo manipulation. Built with Flask, Mask R-CNN, OpenCV, and TensorFlow, it offers features such as image smoothing, filtering, and automatic background removal.
 
-## Features
 
-- **Automatic Background Removal**: Effortlessly remove backgrounds from images using Mask R-CNN.
-- **Image Smoothing & Filtering**: Apply various smoothing and filtering effects to enhance your photos.
-- **Web-Based Interface**: Edit images directly from your browser.
+<h3 align="center">🤖 An AI-Powered Web Application for Image Editing 🤖</h3>
 
-## Installation
+<p align="center">
+  A web-based image editor leveraging Mask R-CNN and OpenCV to provide advanced features like automatic background removal and image filtering.
+</p>
 
-1. **Clone the Repository**
+<p align="center">
+  <!-- Badges/Shields -->
+  <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Flask-2.x-black?logo=flask" alt="Flask">
+  <img src="https://img.shields.io/badge/TensorFlow-1.x-orange?logo=tensorflow" alt="TensorFlow">
+  <img src="https://img.shields.io/badge/OpenCV-4.x-blue?logo=opencv" alt="OpenCV">
+</p>
 
-   ```bash
-   git clone https://github.com/yourusername/nvx-ai-based-photoshop.git
-   cd nvx-ai-based-photoshop
-   ```
+---
 
-2. **Install Dependencies**
+## About The Project
 
-   - Ensure you have Python 3.x installed.
-   - Install required libraries:
-     ```bash
-     pip install -r requirements.txt
-     ```
-   - Make sure you have TensorFlow 1.x and Keras > 2.0.6 installed.
+**AI-Based Photoshop** is a powerful yet simple web application that brings advanced image manipulation capabilities to your browser. Built with Flask, it uses a Mask R-CNN model with TensorFlow and OpenCV to perform complex tasks like automatic background removal. This project serves as an excellent demonstration of how modern AI techniques can be integrated into a user-friendly web service.
 
-3. **Download Mask R-CNN Weights**
-   - Download the `mask_rcnn_coco.h5` file from the [Mask R-CNN GitHub repository](https://github.com/matterport/Mask_RCNN/releases).
-   - Place the file in the appropriate directory as specified in the code.
+## ✨ Key Features
 
-## Usage
+- ✅ **AI-Powered Background Removal:** Automatically detect and remove the background from images using a pre-trained Mask R-CNN model.
+- ✅ **Image Enhancement Tools:** Apply various smoothing and filtering effects to improve photo quality.
+- ✅ **Simple Web Interface:** An intuitive, browser-based UI for uploading images and applying edits.
+- ✅ **Python Backend:** A lightweight and scalable backend powered by Flask.
 
-1. Start the Flask server:
-   ```bash
-   python app.py
-   ```
-2. Open your browser and navigate to `http://localhost:5000`.
-3. Upload an image and select the desired operation (background removal, smoothing, filtering).
+## 🛠️ Tech Stack
 
-## References
+- **Backend Framework:** [Flask](https://flask.palletsprojects.com/)
+- **Machine Learning:** [TensorFlow](https://www.tensorflow.org/) 1.x, [Keras](https://keras.io/)
+- **Computer Vision:** [OpenCV](https://opencv.org/)
+- **AI Model:** [Mask R-CNN](https://github.com/matterport/Mask_RCNN) by Matterport
+- **Language:** [Python](https://www.python.org/) 3.x
 
-- [Flask Documentation](https://flask.palletsprojects.com/)
-- [Mask R-CNN by Matterport](https://github.com/matterport/Mask_RCNN)
-- [OpenCV Documentation](https://opencv.org/)
-- [TensorFlow Documentation](https://www.tensorflow.org/)
+## 🚀 Getting Started
 
-## Contributing
+Follow these steps to get the project set up and running on your local machine.
 
-We welcome contributions! To contribute:
+### 1. Prerequisites
 
-1. Fork the repository.
-2. Create a feature branch:
-   ```bash
-   git checkout -b feature/your-feature
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Describe your feature"
-   ```
-4. Push your branch:
-   ```bash
-   git push origin feature/your-feature
-   ```
-5. Open a pull request.
+- Python 3.x
+- pip (Python package installer)
 
-## License
+### 2. Installation & Setup
 
-This project is licensed under the [MIT License](https://opensource.org/license/mit). See the LICENSE file for details.
+1.  **Clone the repository:**
 
-## Contact
+    ```
+    git clone [this project]
+    cd project
+    ```
 
-For questions, suggestions, or feedback, please contact:
+2.  **Create a Virtual Environment (Recommended):**
 
-- Satria Nur Saputro  
-  [satrianursaputro06@gmail.com](mailto:satrianursaputro06@gmail.com)
+    ```bash
+    python -m venv venv
+    # On Windows
+    venv\Scripts\activate
+    # On macOS/Linux
+    source venv/bin/activate
+    ```
+
+3.  **Install Dependencies:**
+    Install the required libraries from the `requirements.txt` file.
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+    _Note: Ensure your environment meets the specific version requirements, especially `tensorflow==1.15` and `keras>2.0.6`._
+
+4.  **Download Pre-trained Model Weights:**
+    - Download the `mask_rcnn_coco.h5` file from the [Mask R-CNN GitHub releases page](https://github.com/matterport/Mask_RCNN/releases).
+    - Place the downloaded `.h5` file into the root directory of the project.
+
+### 3. Running the Application
+
+Start the Flask development server:
+
+```bash
+python app.py
+```
+
+Open your web browser and navigate to `http://localhost:5000`. You can now upload an image and start editing!
+
+## 🤝 Contributing
+
+We welcome contributions! If you'd like to help improve the project:
+
+1.  **Fork** the repository.
+2.  Create your **Feature Branch** (`git checkout -b feature/AmazingAI-Feature`).
+3.  **Commit** your changes (`git commit -m 'feat: Add some AmazingAI-Feature'`).
+4.  **Push** to the Branch (`git push origin feature/AmazingAI-Feature`).
+5.  Open a **Pull Request**.
+
+## 📄 License
+
+This project is licensed under the [MIT License](https://opensource.org/license/mit). See the `LICENSE` file for more details.
+
+## 📬 Contact
+
+**Satria Nur Saputro**
+
+- Email: [satrianursaputro06@gmail.com](mailto:satrianursaputro06@gmail.com)
+- LinkedIn: [Satria Nur Saputro](https://id.linkedin.com/in/satrianursaputro)
+- LinkedIn: [Nafi Ilham Hamami](https://id.linkedin.com/in/nafi-ilham-ha)
+- LinkedIn: [Muhammad Iqbal Ainu Rafie](https://id.linkedin.com/in/ainurafie)
